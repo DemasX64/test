@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_jokes">
+
+    <fragment
+        android:id="@+id/navigation_jokes"
+        android:name="ru.test.test.JokesFragment"
+        android:label="@string/title_jokes"
+        tools:layout="@layout/fragment_jokes" />
+
+    <fragment
+        android:id="@+id/navigation_webview"
+        android:name="ru.test.test.WebViewFragment"
+        android:label="@string/title_webview"
+        tools:layout="@layout/fragment_webview" />
+</navigation>

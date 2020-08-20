@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="title_home">Home</string>
+    <string name="title_jokes">jokes</string>
+    <string name="title_webview">api info</string>
+</resources>
